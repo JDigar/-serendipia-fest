@@ -1,0 +1,32 @@
+{
+    "name": "-serendipia-fest",
+    "version": "1.0.0",
+    "description": "proyecto con Gulp, SASS y HTML",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch src/scss:build/css",
+        "tarea": "gulp tarea",
+        "css": "gulp css",
+        "dev": "gulp dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JDigar/-serendipia-fest.git"
+    },
+    "keywords": [
+        "SASS",
+        "Gulp",
+        "HTML"
+    ],
+    "author": "Jonathan Díaz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JDigar/-serendipia-fest/issues"
+    },
+    "homepage": "https://github.com/JDigar/-serendipia-fest#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.58.3"
+    }
+}
