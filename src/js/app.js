@@ -1,1 +1,1 @@
-alert('hola!');
+alert('¡¡En este festival no se sirve alcohol!!');
